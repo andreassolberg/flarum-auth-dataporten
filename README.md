@@ -3,7 +3,7 @@
 
 To install
 
-	composer install andreassolberg/flarum-auth-dataporten
+	composer require andreassolberg/flarum-auth-dataporten
 
 Enjoy!
 
