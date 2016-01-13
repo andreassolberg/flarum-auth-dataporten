@@ -1,5 +1,5 @@
 {
-    "name": "andreassolberg/flarum-ext-auth-dataporten",
+    "name": "andreassolberg/flarum-auth-dataporten",
     "description": "Allow users to log in using Dataporten.no",
     "type": "flarum-extension",
     "keywords": ["authentication"],
