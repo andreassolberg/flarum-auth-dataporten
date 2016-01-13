@@ -1,11 +1,11 @@
 <?php
 
-echo '<pre>';
+// echo '<pre>Hello!';
 
 use Flarum\Auth\Dataporten\Listener;
 use Illuminate\Contracts\Events\Dispatcher;
 
 return function (Dispatcher $events) {
     $events->subscribe(Listener\AddClientAssets::class);
-    // $events->subscribe(Listener\AddDataportenAuthRoute::class);
+    $events->subscribe(Listener\AddDataportenAuthRoute::class);
 };
